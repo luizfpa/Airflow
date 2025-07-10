@@ -33,7 +33,8 @@ dag = DAG(
     dag_id='etl_pipeline',
     default_args=default_args,
     schedule_interval='0 0 * * *',
-    catchup=False
+    catchup=False,
+    tags = ['LinkedIn','DE Fund']
 )
 
 etl_task = PythonOperator(
