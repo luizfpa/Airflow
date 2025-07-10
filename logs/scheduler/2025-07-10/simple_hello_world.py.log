@@ -3524,3 +3524,17 @@ ModuleNotFoundError: No module named 'airflow.utils.date'
 [2025-07-10T22:13:10.798+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:13:10.798+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-10T22:13:10.806+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:13:10.805+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_world to None, run_after=None
 [2025-07-10T22:13:10.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_hello_world.py took 0.056 seconds
+[2025-07-10T22:13:40.986+0000] {processor.py:161} INFO - Started process (PID=1724) to work on /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:13:40.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_hello_world.py for tasks to queue
+[2025-07-10T22:13:40.988+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:13:40.987+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:13:41.004+0000] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:13:41.020+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:13:41.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-10T22:13:41.027+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:13:41.027+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-07-10T22:13:41.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_hello_world.py took 0.055 seconds
+[2025-07-10T22:14:11.128+0000] {processor.py:161} INFO - Started process (PID=1858) to work on /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:14:11.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/simple_hello_world.py for tasks to queue
+[2025-07-10T22:14:11.129+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:14:11.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:14:11.142+0000] {processor.py:840} INFO - DAG(s) 'hello_world' retrieved from /opt/airflow/dags/simple_hello_world.py
+[2025-07-10T22:14:11.159+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:14:11.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-10T22:14:11.167+0000] {logging_mixin.py:188} INFO - [2025-07-10T22:14:11.167+0000] {dag.py:3823} INFO - Setting next_dagrun for hello_world to None, run_after=None
+[2025-07-10T22:14:11.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/simple_hello_world.py took 0.053 seconds
