@@ -1105,3 +1105,1980 @@ SyntaxError: invalid syntax
 [2025-07-11T20:54:11.190+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:54:11.190+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-11T20:54:11.202+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:54:11.201+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
 [2025-07-11T20:54:11.222+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.063 seconds
+[2025-07-11T20:54:41.495+0000] {processor.py:161} INFO - Started process (PID=9115) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:54:41.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:54:41.496+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:54:41.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:54:41.511+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:54:41.527+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:54:41.527+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:54:41.540+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:54:41.540+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:54:41.563+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.071 seconds
+[2025-07-11T20:55:12.148+0000] {processor.py:161} INFO - Started process (PID=9260) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:12.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:55:12.151+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:12.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:12.166+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:12.180+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:12.180+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:55:12.191+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:12.191+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:55:12.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.061 seconds
+[2025-07-11T20:55:42.421+0000] {processor.py:161} INFO - Started process (PID=9397) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:42.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:55:42.423+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:42.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:42.434+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:55:42.449+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:42.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:55:42.460+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:55:42.460+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:55:42.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T20:56:12.948+0000] {processor.py:161} INFO - Started process (PID=9533) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:12.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:56:12.949+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:12.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:12.960+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:12.975+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:12.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:56:12.986+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:12.986+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:56:12.996+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.052 seconds
+[2025-07-11T20:56:43.514+0000] {processor.py:161} INFO - Started process (PID=9670) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:43.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:56:43.515+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:43.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:43.525+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:56:43.540+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:43.540+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:56:43.550+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:56:43.550+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:56:43.560+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.049 seconds
+[2025-07-11T20:57:13.876+0000] {processor.py:161} INFO - Started process (PID=9805) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:13.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:57:13.878+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:13.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:13.893+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:13.909+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:13.909+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:57:13.920+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:13.920+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:57:13.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.067 seconds
+[2025-07-11T20:57:44.267+0000] {processor.py:161} INFO - Started process (PID=9939) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:44.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:57:44.268+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:44.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:44.278+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:57:44.293+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:44.293+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:57:44.304+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:57:44.304+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:57:44.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T20:58:14.805+0000] {processor.py:161} INFO - Started process (PID=10074) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:14.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:58:14.807+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:14.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:14.818+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:14.833+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:14.833+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:58:14.845+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:14.845+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:58:14.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.056 seconds
+[2025-07-11T20:58:45.404+0000] {processor.py:161} INFO - Started process (PID=10210) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:45.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:58:45.406+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:45.405+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:45.417+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:58:45.432+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:45.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:58:45.443+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:58:45.443+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:58:45.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.054 seconds
+[2025-07-11T20:59:15.658+0000] {processor.py:161} INFO - Started process (PID=10338) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:15.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:59:15.659+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:15.659+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:15.670+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:15.685+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:15.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:59:15.696+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:15.696+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:59:15.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.050 seconds
+[2025-07-11T20:59:46.527+0000] {processor.py:161} INFO - Started process (PID=10352) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:46.528+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T20:59:46.529+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:46.529+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:46.539+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T20:59:46.557+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:46.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T20:59:46.570+0000] {logging_mixin.py:188} INFO - [2025-07-11T20:59:46.570+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T20:59:46.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:00:16.917+0000] {processor.py:161} INFO - Started process (PID=10487) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:16.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:00:16.919+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:16.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:16.930+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:16.945+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:16.945+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:00:16.956+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:16.956+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:00:16.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.063 seconds
+[2025-07-11T21:00:47.474+0000] {processor.py:161} INFO - Started process (PID=10624) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:47.475+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:00:47.475+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:47.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:47.485+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:00:47.499+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:47.499+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:00:47.511+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:00:47.510+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:00:47.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:01:17.664+0000] {processor.py:161} INFO - Started process (PID=10759) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:17.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:01:17.666+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:17.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:17.677+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:17.694+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:17.694+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:01:17.705+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:17.705+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:01:17.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:01:48.205+0000] {processor.py:161} INFO - Started process (PID=10894) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:48.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:01:48.206+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:48.206+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:48.217+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:01:48.231+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:48.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:01:48.242+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:01:48.242+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:01:48.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.060 seconds
+[2025-07-11T21:02:18.582+0000] {processor.py:161} INFO - Started process (PID=11028) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:18.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:02:18.583+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:18.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:18.594+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:18.609+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:18.609+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:02:18.620+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:18.619+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:02:18.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:02:49.170+0000] {processor.py:161} INFO - Started process (PID=11166) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:49.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:02:49.172+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:49.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:49.182+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:02:49.196+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:49.196+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:02:49.207+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:02:49.207+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:02:49.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:03:19.699+0000] {processor.py:161} INFO - Started process (PID=11303) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:19.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:03:19.700+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:19.700+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:19.710+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:19.725+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:19.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:03:19.736+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:19.736+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:03:19.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.052 seconds
+[2025-07-11T21:03:50.148+0000] {processor.py:161} INFO - Started process (PID=11441) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:50.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:03:50.149+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:50.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:50.159+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:03:50.173+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:50.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:03:50.184+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:03:50.184+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:03:50.194+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.048 seconds
+[2025-07-11T21:04:20.473+0000] {processor.py:161} INFO - Started process (PID=11578) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:20.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:04:20.475+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:20.475+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:20.492+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:20.511+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:20.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:04:20.524+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:20.524+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:04:20.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2025-07-11T21:04:50.983+0000] {processor.py:161} INFO - Started process (PID=11716) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:50.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:04:50.985+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:50.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:50.995+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:04:51.010+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:51.010+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:04:51.021+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:04:51.021+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:04:51.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.050 seconds
+[2025-07-11T21:05:21.460+0000] {processor.py:161} INFO - Started process (PID=11850) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:21.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:05:21.462+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:21.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:21.475+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:21.490+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:21.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:05:21.502+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:21.502+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:05:21.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.056 seconds
+[2025-07-11T21:05:51.707+0000] {processor.py:161} INFO - Started process (PID=11986) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:51.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:05:51.708+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:51.708+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:51.718+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:05:51.734+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:51.734+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:05:51.745+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:05:51.745+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:05:51.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:06:22.191+0000] {processor.py:161} INFO - Started process (PID=12123) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:22.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:06:22.193+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:22.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:22.203+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:22.218+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:22.218+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:06:22.229+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:22.229+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:06:22.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.060 seconds
+[2025-07-11T21:06:52.524+0000] {processor.py:161} INFO - Started process (PID=12258) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:52.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:06:52.526+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:52.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:52.539+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:06:52.561+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:52.561+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:06:52.573+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:06:52.573+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:06:52.594+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.072 seconds
+[2025-07-11T21:07:22.787+0000] {processor.py:161} INFO - Started process (PID=12388) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:22.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:07:22.789+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:22.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:22.799+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:22.814+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:22.814+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:07:22.825+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:22.825+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:07:22.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.050 seconds
+[2025-07-11T21:07:53.310+0000] {processor.py:161} INFO - Started process (PID=12401) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:53.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:07:53.311+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:53.311+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:53.326+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:07:53.344+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:53.344+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:07:53.359+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:07:53.359+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:07:53.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2025-07-11T21:08:23.693+0000] {processor.py:161} INFO - Started process (PID=12537) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:23.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:08:23.694+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:23.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:23.707+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:23.725+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:23.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:08:23.737+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:23.737+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:08:23.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.057 seconds
+[2025-07-11T21:08:53.976+0000] {processor.py:161} INFO - Started process (PID=12672) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:53.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:08:53.978+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:53.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:53.993+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:08:54.011+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:54.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:08:54.024+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:08:54.024+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:08:54.038+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.069 seconds
+[2025-07-11T21:09:24.195+0000] {processor.py:161} INFO - Started process (PID=12807) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:24.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:09:24.197+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:24.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:24.215+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:24.229+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:24.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:09:24.240+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:24.240+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:09:24.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.057 seconds
+[2025-07-11T21:09:54.760+0000] {processor.py:161} INFO - Started process (PID=12944) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:54.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:09:54.761+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:54.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:54.771+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:09:54.785+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:54.784+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:09:54.796+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:09:54.796+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:09:54.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:10:25.320+0000] {processor.py:161} INFO - Started process (PID=13082) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:25.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:10:25.322+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:25.321+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:25.332+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:25.347+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:25.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:10:25.358+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:25.358+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:10:25.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:10:55.874+0000] {processor.py:161} INFO - Started process (PID=13220) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:55.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:10:55.876+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:55.876+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:55.888+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:10:55.905+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:55.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:10:55.917+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:10:55.917+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:10:55.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.056 seconds
+[2025-07-11T21:11:26.279+0000] {processor.py:161} INFO - Started process (PID=13356) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:26.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:11:26.281+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:26.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:26.292+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:26.309+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:26.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:11:26.322+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:26.321+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:11:26.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:11:56.721+0000] {processor.py:161} INFO - Started process (PID=13491) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:56.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:11:56.722+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:56.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:56.733+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:11:56.748+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:56.748+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:11:56.761+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:11:56.760+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:11:56.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.053 seconds
+[2025-07-11T21:12:24.113+0000] {processor.py:161} INFO - Started process (PID=13627) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:24.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:24.115+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:24.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:24.123+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:24.122+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 30
+    bash_command = ''''echo TASK A has executed.'
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                                                 
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:24.123+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:24.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.038 seconds
+[2025-07-11T21:12:25.242+0000] {processor.py:161} INFO - Started process (PID=13628) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:25.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:25.245+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:25.245+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:25.258+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:25.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 30
+    bash_command = '''
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:25.259+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:25.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.045 seconds
+[2025-07-11T21:12:28.283+0000] {processor.py:161} INFO - Started process (PID=13629) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:28.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:28.285+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:28.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:28.334+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:28.333+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 31
+    bash_command = '''
+        
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:28.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:28.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.079 seconds
+[2025-07-11T21:12:30.498+0000] {processor.py:161} INFO - Started process (PID=13630) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:30.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:30.504+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:30.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:30.586+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:30.584+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 31
+    bash_command = '''
+        echo 
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+             
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:30.588+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:30.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.133 seconds
+[2025-07-11T21:12:35.670+0000] {processor.py:161} INFO - Started process (PID=13631) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:35.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:35.672+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:35.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:35.678+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:35.678+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 31
+    bash_command = '''
+        echo TASK A has started
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                               
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:35.678+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:35.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.024 seconds
+[2025-07-11T21:12:39.771+0000] {processor.py:161} INFO - Started process (PID=13632) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:39.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:39.773+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:39.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:39.779+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:39.779+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 31
+    bash_command = '''
+        echo TASK A has started!
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:39.780+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:39.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.023 seconds
+[2025-07-11T21:12:41.874+0000] {processor.py:161} INFO - Started process (PID=13633) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:41.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:41.877+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:41.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:41.890+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:41.889+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:41.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:41.908+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.037 seconds
+[2025-07-11T21:12:43.910+0000] {processor.py:161} INFO - Started process (PID=13634) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:43.911+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:43.912+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:43.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:43.920+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:43.920+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for in in
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                 
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:43.920+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:43.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.037 seconds
+[2025-07-11T21:12:46.003+0000] {processor.py:161} INFO - Started process (PID=13713) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:46.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:46.004+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:46.004+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:46.018+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:46.017+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in 
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                 
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:46.018+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:46.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.031 seconds
+[2025-07-11T21:12:48.861+0000] {processor.py:161} INFO - Started process (PID=13770) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:48.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:48.863+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:48.863+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:48.873+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:48.873+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1}
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                    
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:48.874+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:48.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.038 seconds
+[2025-07-11T21:12:51.932+0000] {processor.py:161} INFO - Started process (PID=13771) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:51.933+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:51.934+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:51.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:51.945+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:51.945+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1 .. 10}
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                          
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:51.945+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:51.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.042 seconds
+[2025-07-11T21:12:54.992+0000] {processor.py:161} INFO - Started process (PID=13772) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:54.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:54.993+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:54.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:55.001+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:55.001+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1 ..10}
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                         
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:55.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:55.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.023 seconds
+[2025-07-11T21:12:56.039+0000] {processor.py:161} INFO - Started process (PID=13773) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:56.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:12:56.040+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:56.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:56.046+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:12:56.046+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 33
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:12:56.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:12:56.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.020 seconds
+[2025-07-11T21:13:01.131+0000] {processor.py:161} INFO - Started process (PID=13774) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:01.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:01.133+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:01.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:01.140+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:01.139+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 34
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:01.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:01.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.034 seconds
+[2025-07-11T21:13:10.263+0000] {processor.py:161} INFO - Started process (PID=13775) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:10.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:10.269+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:10.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:10.324+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:10.323+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 35
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing 
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                 
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:10.325+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:10.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.089 seconds
+[2025-07-11T21:13:12.303+0000] {processor.py:161} INFO - Started process (PID=13776) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:12.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:12.305+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:12.305+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:12.313+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:12.313+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 35
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                  
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:12.314+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:12.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.038 seconds
+[2025-07-11T21:13:13.357+0000] {processor.py:161} INFO - Started process (PID=13777) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:13.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:13.359+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:13.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:13.369+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:13.369+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 35
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:13.369+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:13.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.038 seconds
+[2025-07-11T21:13:16.449+0000] {processor.py:161} INFO - Started process (PID=13785) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:16.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:16.451+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:16.451+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:16.459+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:16.459+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 36
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+        done
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+            
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:16.459+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:16.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.026 seconds
+[2025-07-11T21:13:18.473+0000] {processor.py:161} INFO - Started process (PID=13856) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:18.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:18.475+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:18.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:18.485+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:18.484+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 37
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+        done
+        
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+            
+        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:18.485+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:18.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.035 seconds
+[2025-07-11T21:13:24.380+0000] {processor.py:161} INFO - Started process (PID=13914) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:24.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:24.382+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:24.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:24.395+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:24.394+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 38
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+        done
+
+        echo TASK A has ended
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+            
+
+                             
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:24.396+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:24.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.038 seconds
+[2025-07-11T21:13:26.399+0000] {processor.py:161} INFO - Started process (PID=13915) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:26.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:26.400+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:26.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:26.414+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:26.414+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 38
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+        done
+
+        echo TASK A has ended!
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+            
+
+                              
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:26.414+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:26.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.031 seconds
+[2025-07-11T21:13:27.462+0000] {processor.py:161} INFO - Started process (PID=13916) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:27.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:27.463+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:27.463+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:27.470+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:27.470+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 39
+    bash_command = '''
+        echo TASK A has started!
+
+        for i in {1..10}
+        do
+            echo TASK A printing $i
+        done
+
+        echo TASK A has ended!
+        
+    )
+
+    taskB = BashOperator(
+        task_id = 'taskB',
+        bash_command = 'echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                      
+                                
+
+                        
+          
+                                   
+            
+
+                              
+        
+     
+
+                         
+                          
+                                                  
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:27.471+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:27.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.034 seconds
+[2025-07-11T21:13:29.491+0000] {processor.py:161} INFO - Started process (PID=13917) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:29.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:29.492+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:29.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:29.507+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:29.574+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:29.574+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:29.587+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:29.587+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:29.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.124 seconds
+[2025-07-11T21:13:42.736+0000] {processor.py:161} INFO - Started process (PID=13918) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:42.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:42.738+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:42.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:42.750+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:42.749+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 39
+    bash_command = ''''echo Task B has executed.'
+    )
+
+taskA.set_downstream(taskB)
+                                                 
+     
+
+                          ^
+SyntaxError: EOF while scanning triple-quoted string literal
+[2025-07-11T21:13:42.750+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:42.764+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.030 seconds
+[2025-07-11T21:13:44.777+0000] {processor.py:161} INFO - Started process (PID=13925) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:44.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:44.779+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:44.779+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:44.799+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:44.808+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:44.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:44.820+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:44.820+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:44.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.060 seconds
+[2025-07-11T21:13:46.974+0000] {processor.py:161} INFO - Started process (PID=13927) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:46.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:46.978+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:46.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:47.030+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:47.038+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:47.038+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:47.051+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:47.051+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:47.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.094 seconds
+[2025-07-11T21:13:48.999+0000] {processor.py:161} INFO - Started process (PID=13928) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:49.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:49.001+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:49.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:49.023+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:49.032+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:49.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:49.047+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:49.047+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:49.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.065 seconds
+[2025-07-11T21:13:51.017+0000] {processor.py:161} INFO - Started process (PID=13999) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:51.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:51.019+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:51.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:51.049+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:51.058+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:51.058+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:51.076+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:51.076+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:51.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.078 seconds
+[2025-07-11T21:13:55.168+0000] {processor.py:161} INFO - Started process (PID=14057) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:55.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:13:55.170+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:55.170+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:55.185+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:13:55.194+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:55.193+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:13:55.207+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:13:55.206+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:13:55.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:14:00.352+0000] {processor.py:161} INFO - Started process (PID=14058) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:00.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:00.353+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:00.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:00.373+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:00.429+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:00.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:00.441+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:00.441+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:00.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.105 seconds
+[2025-07-11T21:14:09.533+0000] {processor.py:161} INFO - Started process (PID=14059) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:09.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:09.535+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:09.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:09.550+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:09.560+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:09.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:09.572+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:09.572+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:09.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:14:11.579+0000] {processor.py:161} INFO - Started process (PID=14060) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:11.580+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:11.580+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:11.580+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:11.598+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:11.606+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:11.606+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:11.618+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:11.617+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:11.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.057 seconds
+[2025-07-11T21:14:13.676+0000] {processor.py:161} INFO - Started process (PID=14061) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:13.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:13.677+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:13.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:13.699+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:13.707+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:13.707+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:13.719+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:13.719+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:13.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:14:18.820+0000] {processor.py:161} INFO - Started process (PID=14069) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:18.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:18.821+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:18.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:18.842+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:18.849+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:18.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:18.861+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:18.861+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:18.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:14:21.967+0000] {processor.py:161} INFO - Started process (PID=14070) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:21.968+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:21.968+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:21.968+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:21.983+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:21.991+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:21.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:22.003+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:22.003+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:22.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.053 seconds
+[2025-07-11T21:14:22.984+0000] {processor.py:161} INFO - Started process (PID=14145) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:22.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:22.986+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:22.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:23.002+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:23.010+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:23.010+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:23.022+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:23.022+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:23.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.054 seconds
+[2025-07-11T21:14:27.793+0000] {processor.py:161} INFO - Started process (PID=14202) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:27.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:27.795+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:27.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:27.814+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:27.823+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:27.823+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:14:27.835+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:27.835+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:14:27.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:14:34.907+0000] {processor.py:161} INFO - Started process (PID=14203) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:34.908+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:34.908+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:34.908+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:34.930+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:34.928+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    task
+NameError: name 'task' is not defined
+[2025-07-11T21:14:34.931+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:34.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.048 seconds
+[2025-07-11T21:14:35.955+0000] {processor.py:161} INFO - Started process (PID=14204) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:35.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:35.956+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:35.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:35.974+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:35.968+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    taskC
+NameError: name 'taskC' is not defined
+[2025-07-11T21:14:35.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:35.987+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.035 seconds
+[2025-07-11T21:14:42.161+0000] {processor.py:161} INFO - Started process (PID=14205) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:42.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:42.162+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:42.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:42.168+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:42.168+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43
+    taskC = BashOperator)(
+                        ^
+SyntaxError: unmatched ')'
+[2025-07-11T21:14:42.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:42.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.023 seconds
+[2025-07-11T21:14:44.207+0000] {processor.py:161} INFO - Started process (PID=14206) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:44.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:44.209+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:44.208+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:44.228+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:44.226+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    taskC = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:14:44.228+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:44.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.046 seconds
+[2025-07-11T21:14:46.289+0000] {processor.py:161} INFO - Started process (PID=14213) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:46.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:46.291+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:46.291+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:46.314+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:46.310+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    taskC = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:14:46.314+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:46.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.043 seconds
+[2025-07-11T21:14:53.565+0000] {processor.py:161} INFO - Started process (PID=14215) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:53.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:53.568+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:53.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:53.592+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:53.589+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    taskC = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:14:53.593+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:53.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.043 seconds
+[2025-07-11T21:14:55.655+0000] {processor.py:161} INFO - Started process (PID=14289) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:55.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:14:55.657+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:55.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:55.671+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:14:55.669+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 43, in <module>
+    taskC = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:14:55.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:14:55.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.031 seconds
+[2025-07-11T21:15:02.820+0000] {processor.py:161} INFO - Started process (PID=14347) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:02.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:02.822+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:02.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:02.828+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:02.828+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 46
+    )
+    ^
+SyntaxError: invalid syntax
+[2025-07-11T21:15:02.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:02.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.025 seconds
+[2025-07-11T21:15:04.871+0000] {processor.py:161} INFO - Started process (PID=14348) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:04.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:04.873+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:04.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:04.895+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:04.958+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:04.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:04.968+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:04.967+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:04.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.114 seconds
+[2025-07-11T21:15:09.992+0000] {processor.py:161} INFO - Started process (PID=14349) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:09.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:09.993+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:09.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:10.007+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:10.015+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:10.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:10.027+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:10.027+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:10.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.050 seconds
+[2025-07-11T21:15:11.060+0000] {processor.py:161} INFO - Started process (PID=14350) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:11.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:11.061+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:11.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:11.080+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:11.087+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:11.087+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:11.100+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:11.100+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:11.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:15:20.349+0000] {processor.py:161} INFO - Started process (PID=14358) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:20.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:20.351+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:20.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:20.374+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:20.381+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:20.381+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:20.394+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:20.394+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:20.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.070 seconds
+[2025-07-11T21:15:27.482+0000] {processor.py:161} INFO - Started process (PID=14431) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:27.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:27.483+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:27.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:27.498+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:27.505+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:27.505+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:27.518+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:27.518+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:27.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.049 seconds
+[2025-07-11T21:15:32.280+0000] {processor.py:161} INFO - Started process (PID=14487) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:32.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:32.281+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:32.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:32.303+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:32.311+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:32.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:32.323+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:32.323+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:32.344+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.066 seconds
+[2025-07-11T21:15:33.363+0000] {processor.py:161} INFO - Started process (PID=14488) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:33.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:33.364+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:33.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:33.380+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:33.388+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:33.388+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:33.400+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:33.400+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:33.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.064 seconds
+[2025-07-11T21:15:40.481+0000] {processor.py:161} INFO - Started process (PID=14489) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:40.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:40.483+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:40.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:40.502+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:40.557+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:40.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:15:40.567+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:40.567+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:15:40.590+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.112 seconds
+[2025-07-11T21:15:50.832+0000] {processor.py:161} INFO - Started process (PID=14497) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:50.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:50.833+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:50.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:50.846+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:50.844+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 52, in <module>
+    taskD = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:15:50.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:50.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.028 seconds
+[2025-07-11T21:15:56.969+0000] {processor.py:161} INFO - Started process (PID=14498) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:56.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:56.970+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:56.970+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:56.978+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:56.977+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 54
+    )
+    ^
+SyntaxError: invalid syntax
+[2025-07-11T21:15:56.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:56.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.022 seconds
+[2025-07-11T21:15:58.006+0000] {processor.py:161} INFO - Started process (PID=14499) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:58.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:15:58.007+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:58.007+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:58.019+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:15:58.018+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 52, in <module>
+    taskD = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:15:58.020+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:15:58.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.028 seconds
+[2025-07-11T21:16:00.079+0000] {processor.py:161} INFO - Started process (PID=14572) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:00.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:00.081+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:00.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:00.107+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:00.103+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 52, in <module>
+    taskD = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:16:00.108+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:00.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.043 seconds
+[2025-07-11T21:16:01.806+0000] {processor.py:161} INFO - Started process (PID=14630) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:01.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:01.808+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:01.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:01.831+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:01.828+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 52, in <module>
+    taskD = BashOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 420, in apply_defaults
+    raise AirflowException(f"missing keyword argument {missing_args.pop()!r}")
+airflow.exceptions.AirflowException: missing keyword argument 'bash_command'
+[2025-07-11T21:16:01.832+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:01.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.043 seconds
+[2025-07-11T21:16:06.932+0000] {processor.py:161} INFO - Started process (PID=14631) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:06.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:06.933+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:06.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:06.939+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:06.938+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 54
+    bash_command
+    ^
+SyntaxError: positional argument follows keyword argument
+[2025-07-11T21:16:06.939+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:06.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.033 seconds
+[2025-07-11T21:16:13.072+0000] {processor.py:161} INFO - Started process (PID=14632) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:13.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:13.074+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:13.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:13.094+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:13.153+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:13.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:16:13.162+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:13.162+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:16:13.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.107 seconds
+[2025-07-11T21:16:14.123+0000] {processor.py:161} INFO - Started process (PID=14633) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:14.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:14.125+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:14.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:14.149+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:14.163+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:14.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:16:14.176+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:14.176+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:16:14.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.067 seconds
+[2025-07-11T21:16:22.345+0000] {processor.py:161} INFO - Started process (PID=14641) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:22.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:22.346+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:22.346+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:22.367+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:22.374+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:22.374+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:16:22.386+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:22.386+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:16:22.398+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.056 seconds
+[2025-07-11T21:16:41.382+0000] {processor.py:161} INFO - Started process (PID=14772) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:41.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:41.385+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:41.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:41.424+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:41.433+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:41.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:16:41.446+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:41.446+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:16:41.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.085 seconds
+[2025-07-11T21:16:48.444+0000] {processor.py:161} INFO - Started process (PID=14779) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:48.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:16:48.445+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:48.445+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:48.463+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:16:48.520+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:48.520+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:16:48.531+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:16:48.531+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:16:48.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.103 seconds
+[2025-07-11T21:17:18.830+0000] {processor.py:161} INFO - Started process (PID=14917) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:18.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:17:18.831+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:18.831+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:18.842+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:18.857+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:18.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:17:18.870+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:18.869+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:17:18.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.053 seconds
+[2025-07-11T21:17:49.282+0000] {processor.py:161} INFO - Started process (PID=15051) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:49.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:17:49.283+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:49.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:49.294+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:17:49.309+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:49.309+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:17:49.320+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:17:49.320+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:17:49.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:18:19.795+0000] {processor.py:161} INFO - Started process (PID=15187) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:19.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:18:19.797+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:19.797+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:19.808+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:19.824+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:19.824+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:18:19.835+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:19.835+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:18:19.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.053 seconds
+[2025-07-11T21:18:50.514+0000] {processor.py:161} INFO - Started process (PID=15322) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:50.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:18:50.516+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:50.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:50.528+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:18:50.545+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:50.544+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:18:50.556+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:18:50.556+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:18:50.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.066 seconds
+[2025-07-11T21:19:20.851+0000] {processor.py:161} INFO - Started process (PID=15457) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:20.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:19:20.853+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:20.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:20.866+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:20.881+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:20.881+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:19:20.892+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:20.892+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:19:20.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.065 seconds
+[2025-07-11T21:19:51.230+0000] {processor.py:161} INFO - Started process (PID=15592) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:51.231+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:19:51.232+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:51.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:51.249+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:19:51.269+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:51.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:19:51.285+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:19:51.285+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:19:51.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.080 seconds
+[2025-07-11T21:20:21.639+0000] {processor.py:161} INFO - Started process (PID=15729) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:21.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:20:21.640+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:21.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:21.650+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:21.665+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:21.665+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:20:21.676+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:21.676+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:20:21.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:20:52.413+0000] {processor.py:161} INFO - Started process (PID=15811) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:52.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:20:52.414+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:52.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:52.425+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:20:52.441+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:52.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:20:52.452+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:20:52.452+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:20:52.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.052 seconds
+[2025-07-11T21:21:22.836+0000] {processor.py:161} INFO - Started process (PID=15874) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:22.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:21:22.837+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:22.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:22.847+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:22.863+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:22.863+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:21:22.875+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:22.874+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:21:22.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:21:53.243+0000] {processor.py:161} INFO - Started process (PID=16009) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:53.244+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:21:53.245+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:53.244+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:53.267+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:21:53.292+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:53.292+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:21:53.317+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:21:53.317+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:21:53.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.106 seconds
+[2025-07-11T21:22:23.676+0000] {processor.py:161} INFO - Started process (PID=16147) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:23.677+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:22:23.678+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:23.678+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:23.690+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:23.706+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:23.706+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:22:23.717+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:23.717+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:22:23.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.069 seconds
+[2025-07-11T21:22:54.024+0000] {processor.py:161} INFO - Started process (PID=16281) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:54.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:22:54.025+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:54.025+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:54.040+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:22:54.058+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:54.058+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:22:54.071+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:22:54.071+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:22:54.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.061 seconds
+[2025-07-11T21:23:24.452+0000] {processor.py:161} INFO - Started process (PID=16419) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:24.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:23:24.454+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:24.453+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:24.465+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:24.481+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:24.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:23:24.493+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:24.493+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:23:24.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.054 seconds
+[2025-07-11T21:23:55.085+0000] {processor.py:161} INFO - Started process (PID=16556) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:55.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:23:55.087+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:55.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:55.098+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:23:55.113+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:55.113+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:23:55.124+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:23:55.124+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:23:55.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.062 seconds
+[2025-07-11T21:24:25.730+0000] {processor.py:161} INFO - Started process (PID=16692) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:25.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:24:25.733+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:25.732+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:25.752+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:25.768+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:25.768+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:24:25.779+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:25.779+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:24:25.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.075 seconds
+[2025-07-11T21:24:56.270+0000] {processor.py:161} INFO - Started process (PID=16829) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:56.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:24:56.272+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:56.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:56.324+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:24:56.343+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:56.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:24:56.356+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:24:56.356+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:24:56.380+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.113 seconds
+[2025-07-11T21:25:26.561+0000] {processor.py:161} INFO - Started process (PID=16967) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:26.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:25:26.562+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:26.562+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:26.575+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:26.592+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:26.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:25:26.605+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:26.605+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:25:26.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.061 seconds
+[2025-07-11T21:25:57.005+0000] {processor.py:161} INFO - Started process (PID=17104) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:57.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:25:57.008+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:57.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:57.068+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:25:57.087+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:57.087+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:25:57.101+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:25:57.101+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:25:57.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.116 seconds
+[2025-07-11T21:26:27.284+0000] {processor.py:161} INFO - Started process (PID=17241) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:27.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:26:27.285+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:27.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:27.296+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:27.313+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:27.313+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:26:27.325+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:27.325+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:26:27.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.054 seconds
+[2025-07-11T21:26:57.492+0000] {processor.py:161} INFO - Started process (PID=17377) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:57.493+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:26:57.494+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:57.493+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:57.505+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:26:57.522+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:57.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:26:57.534+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:26:57.534+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:26:57.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.055 seconds
+[2025-07-11T21:27:27.830+0000] {processor.py:161} INFO - Started process (PID=17512) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:27.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:27:27.832+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:27.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:27.844+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:27.859+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:27.859+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:27:27.870+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:27.870+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:27:27.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.055 seconds
+[2025-07-11T21:27:58.171+0000] {processor.py:161} INFO - Started process (PID=17649) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:58.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:27:58.172+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:58.172+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:58.184+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:27:58.200+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:58.200+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:27:58.212+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:27:58.212+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:27:58.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.055 seconds
+[2025-07-11T21:28:28.472+0000] {processor.py:161} INFO - Started process (PID=17785) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:28.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:28:28.474+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:28.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:28.484+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:28.500+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:28.500+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:28:28.512+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:28.512+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:28:28.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.062 seconds
+[2025-07-11T21:28:59.019+0000] {processor.py:161} INFO - Started process (PID=17865) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:59.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:28:59.020+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:59.020+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:59.030+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:28:59.046+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:59.046+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:28:59.059+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:28:59.059+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:28:59.070+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.053 seconds
+[2025-07-11T21:29:29.337+0000] {processor.py:161} INFO - Started process (PID=17930) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:29.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:29:29.339+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:29.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:29.352+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:29.367+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:29.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:29:29.378+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:29.378+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:29:29.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.054 seconds
+[2025-07-11T21:29:59.777+0000] {processor.py:161} INFO - Started process (PID=18067) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:59.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:29:59.778+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:59.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:59.791+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:29:59.808+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:59.808+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:29:59.821+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:29:59.821+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:29:59.833+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:30:30.330+0000] {processor.py:161} INFO - Started process (PID=18203) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:30:30.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:30:30.332+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:30:30.332+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:30:30.346+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:30:30.362+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:30:30.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:30:30.374+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:30:30.374+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:30:30.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.071 seconds
+[2025-07-11T21:31:00.682+0000] {processor.py:161} INFO - Started process (PID=18342) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:00.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:31:00.684+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:00.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:00.696+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:00.713+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:00.713+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:31:00.725+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:00.725+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:31:00.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.068 seconds
+[2025-07-11T21:31:31.020+0000] {processor.py:161} INFO - Started process (PID=18477) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:31.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:31:31.021+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:31.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:31.034+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:31:31.057+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:31.056+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:31:31.075+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:31:31.075+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:31:31.098+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.081 seconds
+[2025-07-11T21:32:01.458+0000] {processor.py:161} INFO - Started process (PID=18614) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:01.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:32:01.460+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:01.460+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:01.473+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:01.490+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:01.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:32:01.501+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:01.501+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:32:01.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:32:32.127+0000] {processor.py:161} INFO - Started process (PID=18750) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:32.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:32:32.128+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:32.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:32.138+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:32:32.153+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:32.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:32:32.164+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:32:32.164+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:32:32.184+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:33:02.539+0000] {processor.py:161} INFO - Started process (PID=18888) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:02.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:33:02.541+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:02.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:02.554+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:02.571+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:02.571+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:33:02.583+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:02.583+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:33:02.603+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.069 seconds
+[2025-07-11T21:33:32.660+0000] {processor.py:161} INFO - Started process (PID=19026) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:32.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:33:32.662+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:32.661+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:32.672+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:33:32.688+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:32.688+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:33:32.699+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:33:32.699+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:33:32.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:34:03.061+0000] {processor.py:161} INFO - Started process (PID=19163) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:03.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:34:03.064+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:03.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:03.092+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:03.116+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:03.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:34:03.129+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:03.129+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:34:03.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.084 seconds
+[2025-07-11T21:34:33.493+0000] {processor.py:161} INFO - Started process (PID=19299) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:33.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:34:33.495+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:33.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:33.518+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:33.535+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:33.535+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:34:33.547+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:33.547+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:34:33.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.071 seconds
+[2025-07-11T21:34:36.618+0000] {processor.py:161} INFO - Started process (PID=19301) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:36.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:34:36.620+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:36.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:36.645+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:36.707+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:36.707+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:34:36.721+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:36.721+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:34:36.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.145 seconds
+[2025-07-11T21:34:45.841+0000] {processor.py:161} INFO - Started process (PID=19302) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:45.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:34:45.843+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:45.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:45.858+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:45.856+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 60, in <module>
+    taskD.set_upstream()
+TypeError: set_upstream() missing 1 required positional argument: 'task_or_task_list'
+[2025-07-11T21:34:45.858+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:45.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.041 seconds
+[2025-07-11T21:34:58.897+0000] {processor.py:161} INFO - Started process (PID=19435) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:58.898+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:34:58.899+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:58.899+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:58.918+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:34:58.926+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:58.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:34:58.939+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:34:58.938+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:34:58.953+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.058 seconds
+[2025-07-11T21:35:00.984+0000] {processor.py:161} INFO - Started process (PID=19436) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:00.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:35:00.987+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:00.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:01.011+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:01.008+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 61, in <module>
+    task
+NameError: name 'task' is not defined
+[2025-07-11T21:35:01.011+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:01.023+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.044 seconds
+[2025-07-11T21:35:08.094+0000] {processor.py:161} INFO - Started process (PID=19438) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:08.094+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:35:08.095+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:08.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:08.110+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:08.173+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:08.173+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:35:08.185+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:08.185+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:35:08.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.110 seconds
+[2025-07-11T21:35:14.289+0000] {processor.py:161} INFO - Started process (PID=19439) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:14.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:35:14.291+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:14.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:14.310+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:14.320+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:14.320+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:35:14.333+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:14.333+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:35:14.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.059 seconds
+[2025-07-11T21:35:44.441+0000] {processor.py:161} INFO - Started process (PID=19575) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:44.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:35:44.443+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:44.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:44.457+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:35:44.473+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:44.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:35:44.485+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:35:44.484+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:35:44.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.069 seconds
+[2025-07-11T21:36:14.895+0000] {processor.py:161} INFO - Started process (PID=19712) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:14.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:36:14.896+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:14.896+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:14.906+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:14.922+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:14.922+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:36:14.933+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:14.933+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:36:14.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:36:45.117+0000] {processor.py:161} INFO - Started process (PID=19849) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:45.117+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:36:45.118+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:45.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:45.128+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:36:45.143+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:45.143+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:36:45.155+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:36:45.155+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to None, run_after=None
+[2025-07-11T21:36:45.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
+[2025-07-11T21:37:05.448+0000] {processor.py:161} INFO - Started process (PID=19926) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:05.449+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:05.450+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:05.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:05.458+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:05.458+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 17
+    schedule_interval = \'
+                         ^
+SyntaxError: unexpected character after line continuation character
+[2025-07-11T21:37:05.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:05.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.025 seconds
+[2025-07-11T21:37:08.351+0000] {processor.py:161} INFO - Started process (PID=19985) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:08.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:08.353+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:08.353+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:08.374+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:08.370+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 11, in <module>
+    with DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 601, in __init__
+    self.timetable = create_timetable(schedule_interval, self.timezone)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 230, in create_timetable
+    raise ValueError(f"{interval!r} is not a valid interval.")
+ValueError: <class 'datetime.timedelta'> is not a valid interval.
+[2025-07-11T21:37:08.374+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:08.390+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.044 seconds
+[2025-07-11T21:37:11.414+0000] {processor.py:161} INFO - Started process (PID=19986) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:11.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:11.416+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:11.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:11.426+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:11.424+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/execute_multiple_tasks.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/execute_multiple_tasks.py", line 17, in <module>
+    schedule_interval = timedelta(days)
+NameError: name 'days' is not defined
+[2025-07-11T21:37:11.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:11.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.027 seconds
+[2025-07-11T21:37:12.465+0000] {processor.py:161} INFO - Started process (PID=19987) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:12.465+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:12.466+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:12.466+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:12.483+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:12.536+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:12.536+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:37:12.548+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:12.548+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-11T21:37:12.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.105 seconds
+[2025-07-11T21:37:25.671+0000] {processor.py:161} INFO - Started process (PID=19994) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:25.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:25.674+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:25.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:25.698+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:25.709+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:25.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:37:25.726+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:25.725+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-11T21:37:25.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.071 seconds
+[2025-07-11T21:37:27.684+0000] {processor.py:161} INFO - Started process (PID=19995) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:27.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:27.686+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:27.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:27.700+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:27.708+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:27.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:37:27.721+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:27.721+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-11T21:37:27.752+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.070 seconds
+[2025-07-11T21:37:28.737+0000] {processor.py:161} INFO - Started process (PID=19996) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:28.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:28.739+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:28.739+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:28.761+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:28.770+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:28.770+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:37:28.785+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:28.784+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-11T21:37:28.804+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.071 seconds
+[2025-07-11T21:37:33.884+0000] {processor.py:161} INFO - Started process (PID=19997) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:33.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-11T21:37:33.885+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:33.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:33.899+0000] {processor.py:840} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-11T21:37:33.907+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:33.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-11T21:37:33.920+0000] {logging_mixin.py:188} INFO - [2025-07-11T21:37:33.919+0000] {dag.py:3823} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-10 00:00:00+00:00, run_after=2025-07-11 00:00:00+00:00
+[2025-07-11T21:37:33.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.051 seconds
