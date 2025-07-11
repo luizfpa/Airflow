@@ -54,8 +54,8 @@ with DAG(
         bash_command = 'echo TASK D completed!'
     )
 
-taskA.set_downstream(taskB)
-taskA.set_downstream(taskC)
+taskA >> taskB
+taskA >> taskC
 
-taskD.set_upstream(taskB)
-taskD.set_upstream(taskC)
+taskD << taskB
+taskD << taskC
