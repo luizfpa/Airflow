@@ -11,3 +11,8 @@
 [2025-07-11T22:02:38.659+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '\n        echo TASK C has started!\n        sleep 15\n        echo TASK C has ended!\n        ']
 [2025-07-11T22:02:38.663+0000] {subprocess.py:86} INFO - Output:
 [2025-07-11T22:02:38.664+0000] {subprocess.py:93} INFO - TASK C has started!
+[2025-07-11T22:02:53.666+0000] {subprocess.py:93} INFO - TASK C has ended!
+[2025-07-11T22:02:53.667+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-11T22:02:53.691+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=executing_multiple_tasks, task_id=taskC, execution_date=20250711T220228, start_date=20250711T220238, end_date=20250711T220253
+[2025-07-11T22:02:53.710+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-11T22:02:53.721+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
