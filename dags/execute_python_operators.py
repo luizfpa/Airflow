@@ -7,45 +7,30 @@ default_args ={
     'owner' : 'airflow '
 }
 
-def task_a():
-        print("Task A executed!")
-
-def task_b():
-        print("Task B executed!")
-        
-def task_c():
-        print("Task C executed!")
-
-def task_d():
-        print("Task D executed!")
+def greet_hello(name):
+        print("Hello, {name}!".format(name=name))
+              
+def greet_hello_with_city(name, city):
+        print("Hello, {name} from {city}.".format(name=name, city=city))
 
 with DAG(
     dag_id = 'execute_python_operators',
-    description = 'Python operators in DAGs',
+    description = 'Python operators in DAGs with parameters',
     default_args = default_args,
     start_date = airflow.utils.dates.days_ago(1),
     schedule_interval = '@daily',
-    tags = ['Lrn Airflow', 'LinkedIn','dependecies']
+    tags = ['Lrn Airflow', 'LinkedIn','parameters']
 ) as dag:
     taskA = PythonOperator(
-        task_id = 'taskA',
-        python_callable = task_a
+        task_id = 'greet_hello',
+        python_callable = greet_hello,
+        op_kwargs ={'name': 'Ozzy'}
     )
 
     taskB = PythonOperator(
-        task_id = 'taskB',
-        python_callable = task_b
+        task_id = 'greet_hello_with_city',
+        python_callable = greet_hello_with_city,
+        op_kwargs = {'name':'Louise', 'city':'Seattle'}
     )
 
-    taskC = PythonOperator(
-        task_id = 'taskC',
-        python_callable = task_c
-    )
-
-    taskD = PythonOperator(
-        task_id = 'taskD',
-        python_callable = task_d
-    )
-
-taskA >> [taskB, taskC]
-[taskB, taskC] >> taskD
+taskA >> taskB
