@@ -1,0 +1,14 @@
+[2025-07-15T00:04:57.280+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-07-15T00:04:55.006884+00:00 [queued]>
+[2025-07-15T00:04:57.286+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.increment_by_1 manual__2025-07-15T00:04:55.006884+00:00 [queued]>
+[2025-07-15T00:04:57.286+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-15T00:04:57.294+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): increment_by_1> on 2025-07-15 00:04:55.006884+00:00
+[2025-07-15T00:04:57.298+0000] {standard_task_runner.py:60} INFO - Started process 25320 to run task
+[2025-07-15T00:04:57.301+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'cross_task_communication', 'increment_by_1', 'manual__2025-07-15T00:04:55.006884+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/execute_xcom.py', '--cfg-path', '/tmp/tmpmnr7w_ff']
+[2025-07-15T00:04:57.303+0000] {standard_task_runner.py:88} INFO - Job 95: Subtask increment_by_1
+[2025-07-15T00:04:57.351+0000] {task_command.py:423} INFO - Running <TaskInstance: cross_task_communication.increment_by_1 manual__2025-07-15T00:04:55.006884+00:00 [running]> on host 84e5714b039f
+[2025-07-15T00:04:57.402+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='*** ' AIRFLOW_CTX_DAG_ID='cross_task_communication' AIRFLOW_CTX_TASK_ID='increment_by_1' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T00:04:55.006884+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T00:04:55.006884+00:00'
+[2025-07-15T00:04:57.404+0000] {logging_mixin.py:188} INFO - Count, 55!
+[2025-07-15T00:04:57.404+0000] {python.py:201} INFO - Done. Returned value was: 56
+[2025-07-15T00:04:57.419+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=cross_task_communication, task_id=increment_by_1, execution_date=20250715T000455, start_date=20250715T000457, end_date=20250715T000457
+[2025-07-15T00:04:57.434+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-15T00:04:57.453+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
