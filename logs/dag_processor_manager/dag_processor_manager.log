@@ -21700,3 +21700,430 @@ File Path                                      PID    Runtime      # DAGs    # E
 ================================================================================
 [2025-07-14T23:29:07.291+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
 [2025-07-14T23:29:07.354+0000] {manager.py:741} INFO - There are 4 files in /opt/airflow/dags
+[2025-07-15T00:43:33.987+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-07-15T00:43:33.987+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-07-15T00:43:33.987+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-07-15T00:43:33.988+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T00:43:34.040+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2025-07-15T00:43:34.096+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dags.py                                               0           0
+/opt/airflow/dags/execute_multiple_tasks.py                             0           0
+/opt/airflow/dags/execute_python_operators.py                           0           0
+/opt/airflow/dags/execute_xcom.py                 63  0.02s             0           0
+/opt/airflow/dags/execute_xcom_pass_values.py     62  0.03s             0           0
+/opt/airflow/dags/simple_hello_world.py                                 0           0
+================================================================================
+[2025-07-15T00:44:04.672+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.88s           2025-07-15T00:43:36
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:43:34
+/opt/airflow/dags/execute_python_operators.py                           1           0  0.09s           2025-07-15T00:43:34
+/opt/airflow/dags/execute_xcom.py                229  0.00s             1           0  0.10s           2025-07-15T00:43:34
+/opt/airflow/dags/execute_xcom_pass_values.py    228  0.01s             1           0  0.12s           2025-07-15T00:43:34
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:43:34
+================================================================================
+[2025-07-15T00:44:35.447+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.90s           2025-07-15T00:44:08
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:44:04
+/opt/airflow/dags/execute_python_operators.py    422  0.00s             1           0  0.08s           2025-07-15T00:44:04
+/opt/airflow/dags/execute_xcom.py                421  0.01s             1           0  0.08s           2025-07-15T00:44:04
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.10s           2025-07-15T00:44:14
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:44:04
+================================================================================
+[2025-07-15T00:45:05.987+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.77s           2025-07-15T00:44:41
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:44:35
+/opt/airflow/dags/execute_python_operators.py    560  0.00s             1           0  0.09s           2025-07-15T00:44:35
+/opt/airflow/dags/execute_xcom.py                559  0.02s             1           0  0.09s           2025-07-15T00:44:35
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:44:44
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:44:35
+================================================================================
+[2025-07-15T00:45:36.478+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.77s           2025-07-15T00:45:14
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:45:06
+/opt/airflow/dags/execute_python_operators.py    699  0.00s             1           0  0.07s           2025-07-15T00:45:06
+/opt/airflow/dags/execute_xcom.py                698  0.01s             1           0  0.08s           2025-07-15T00:45:06
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.12s           2025-07-15T00:45:34
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:45:06
+================================================================================
+[2025-07-15T00:46:07.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.79s           2025-07-15T00:45:46
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:45:37
+/opt/airflow/dags/execute_python_operators.py    842  0.00s             1           0  0.07s           2025-07-15T00:45:36
+/opt/airflow/dags/execute_xcom.py                841  0.02s             1           0  0.08s           2025-07-15T00:45:36
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:46:02
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:45:37
+================================================================================
+[2025-07-15T00:46:37.675+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.80s           2025-07-15T00:46:18
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:46:08
+/opt/airflow/dags/execute_python_operators.py   1033  0.00s             1           0  0.17s           2025-07-15T00:46:07
+/opt/airflow/dags/execute_xcom.py               1032  0.01s             1           0  0.15s           2025-07-15T00:46:07
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:46:32
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.09s           2025-07-15T00:46:08
+================================================================================
+[2025-07-15T00:47:08.196+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.78s           2025-07-15T00:46:50
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:46:38
+/opt/airflow/dags/execute_python_operators.py   1171  0.00s             1           0  0.09s           2025-07-15T00:46:37
+/opt/airflow/dags/execute_xcom.py               1170  0.03s             1           0  0.08s           2025-07-15T00:46:37
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.10s           2025-07-15T00:46:49
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:46:38
+================================================================================
+[2025-07-15T00:47:38.503+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.74s           2025-07-15T00:47:23
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:47:09
+/opt/airflow/dags/execute_python_operators.py   1310  0.00s             1           0  0.10s           2025-07-15T00:47:08
+/opt/airflow/dags/execute_xcom.py               1309  0.01s             1           0  0.14s           2025-07-15T00:47:08
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:47:19
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:47:09
+================================================================================
+[2025-07-15T00:48:09.042+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.82s           2025-07-15T00:47:55
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-07-15T00:47:39
+/opt/airflow/dags/execute_python_operators.py   1450  0.00s             1           0  0.08s           2025-07-15T00:47:38
+/opt/airflow/dags/execute_xcom.py               1449  0.01s             1           0  0.08s           2025-07-15T00:47:38
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:47:49
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:47:39
+================================================================================
+[2025-07-15T00:48:34.367+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T00:48:34.423+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2025-07-15T00:48:39.506+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.78s           2025-07-15T00:48:28
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:48:10
+/opt/airflow/dags/execute_python_operators.py   1587  0.00s             1           0  0.07s           2025-07-15T00:48:09
+/opt/airflow/dags/execute_xcom.py               1586  0.01s             1           0  0.08s           2025-07-15T00:48:09
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:48:20
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:48:10
+================================================================================
+[2025-07-15T00:49:10.114+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.77s           2025-07-15T00:49:00
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.21s           2025-07-15T00:48:40
+/opt/airflow/dags/execute_python_operators.py   1727  0.00s             1           0  0.10s           2025-07-15T00:48:39
+/opt/airflow/dags/execute_xcom.py               1726  0.01s             1           0  0.10s           2025-07-15T00:48:39
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:48:51
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.11s           2025-07-15T00:48:40
+================================================================================
+[2025-07-15T00:49:40.201+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.79s           2025-07-15T00:49:32
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-07-15T00:49:11
+/opt/airflow/dags/execute_python_operators.py                           1           0  0.08s           2025-07-15T00:49:10
+/opt/airflow/dags/execute_xcom.py               1871  0.00s             1           0  0.08s           2025-07-15T00:49:10
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.10s           2025-07-15T00:49:33
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.09s           2025-07-15T00:49:11
+================================================================================
+[2025-07-15T00:50:10.696+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.78s           2025-07-15T00:50:05
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.13s           2025-07-15T00:49:41
+/opt/airflow/dags/execute_python_operators.py   2012  0.00s             1           0  0.08s           2025-07-15T00:49:40
+/opt/airflow/dags/execute_xcom.py               2011  0.01s             1           0  0.08s           2025-07-15T00:49:40
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:50:03
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.09s           2025-07-15T00:49:41
+================================================================================
+[2025-07-15T00:50:41.081+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.83s           2025-07-15T00:50:38
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:50:11
+/opt/airflow/dags/execute_python_operators.py   2203  0.00s             1           0  0.08s           2025-07-15T00:50:10
+/opt/airflow/dags/execute_xcom.py               2202  0.01s             1           0  0.08s           2025-07-15T00:50:10
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:50:34
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:50:11
+================================================================================
+[2025-07-15T00:51:11.598+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.90s           2025-07-15T00:51:10
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:50:42
+/opt/airflow/dags/execute_python_operators.py   2342  0.00s             1           0  0.07s           2025-07-15T00:50:41
+/opt/airflow/dags/execute_xcom.py               2341  0.01s             1           0  0.07s           2025-07-15T00:50:41
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:51:04
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:50:42
+================================================================================
+[2025-07-15T00:51:42.304+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                       2352  1.02s             1           0  1.90s           2025-07-15T00:51:10
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:51:12
+/opt/airflow/dags/execute_python_operators.py                           1           0  0.08s           2025-07-15T00:51:11
+/opt/airflow/dags/execute_xcom.py               2423  0.00s             1           0  0.07s           2025-07-15T00:51:11
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:51:35
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:51:12
+================================================================================
+[2025-07-15T00:52:12.760+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.88s           2025-07-15T00:51:43
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:51:43
+/opt/airflow/dags/execute_python_operators.py   2494  0.00s             1           0  0.08s           2025-07-15T00:51:42
+/opt/airflow/dags/execute_xcom.py               2493  0.02s             1           0  0.10s           2025-07-15T00:51:42
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:52:05
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:51:43
+================================================================================
+[2025-07-15T00:52:43.369+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.77s           2025-07-15T00:52:15
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:52:13
+/opt/airflow/dags/execute_python_operators.py   2634  0.00s             1           0  0.08s           2025-07-15T00:52:12
+/opt/airflow/dags/execute_xcom.py               2633  0.02s             1           0  0.09s           2025-07-15T00:52:12
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:52:36
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:52:13
+================================================================================
+[2025-07-15T00:53:14.024+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.85s           2025-07-15T00:52:48
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:52:44
+/opt/airflow/dags/execute_python_operators.py   2775  0.00s             1           0  0.08s           2025-07-15T00:52:43
+/opt/airflow/dags/execute_xcom.py               2774  0.01s             1           0  0.08s           2025-07-15T00:52:43
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.14s           2025-07-15T00:53:03
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:52:44
+================================================================================
+[2025-07-15T00:53:35.273+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T00:53:35.341+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2025-07-15T00:53:44.518+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.80s           2025-07-15T00:53:21
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:53:15
+/opt/airflow/dags/execute_python_operators.py   2913  0.00s             1           0  0.10s           2025-07-15T00:53:14
+/opt/airflow/dags/execute_xcom.py               2912  0.02s             1           0  0.09s           2025-07-15T00:53:14
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:53:34
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:53:15
+================================================================================
+[2025-07-15T00:54:15.084+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  2.23s           2025-07-15T00:53:54
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:53:45
+/opt/airflow/dags/execute_python_operators.py   3155  0.00s             1           0  0.08s           2025-07-15T00:53:44
+/opt/airflow/dags/execute_xcom.py               3154  0.02s             1           0  0.10s           2025-07-15T00:53:44
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:53:46
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.06s           2025-07-15T00:53:45
+================================================================================
+[2025-07-15T00:54:45.469+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.78s           2025-07-15T00:54:26
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.12s           2025-07-15T00:54:16
+/opt/airflow/dags/execute_python_operators.py   3293  0.00s             1           0  0.07s           2025-07-15T00:54:15
+/opt/airflow/dags/execute_xcom.py               3292  0.01s             1           0  0.09s           2025-07-15T00:54:15
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:54:17
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:54:16
+================================================================================
+[2025-07-15T00:55:15.878+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.76s           2025-07-15T00:54:58
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:54:46
+/opt/airflow/dags/execute_python_operators.py   3432  0.00s             1           0  0.09s           2025-07-15T00:54:45
+/opt/airflow/dags/execute_xcom.py               3431  0.01s             1           0  0.09s           2025-07-15T00:54:45
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:54:47
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:54:46
+================================================================================
+[2025-07-15T00:55:46.376+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.82s           2025-07-15T00:55:31
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:55:16
+/opt/airflow/dags/execute_python_operators.py   3573  0.00s             1           0  0.07s           2025-07-15T00:55:15
+/opt/airflow/dags/execute_xcom.py               3572  0.01s             1           0  0.08s           2025-07-15T00:55:15
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:55:18
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:55:16
+================================================================================
+[2025-07-15T00:56:16.908+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.86s           2025-07-15T00:56:03
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:55:47
+/opt/airflow/dags/execute_python_operators.py   3713  0.00s             1           0  0.08s           2025-07-15T00:55:46
+/opt/airflow/dags/execute_xcom.py               3712  0.01s             1           0  0.08s           2025-07-15T00:55:46
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:55:59
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:55:47
+================================================================================
+[2025-07-15T00:56:47.270+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.80s           2025-07-15T00:56:36
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:56:18
+/opt/airflow/dags/execute_python_operators.py   3853  0.00s             1           0  0.07s           2025-07-15T00:56:16
+/opt/airflow/dags/execute_xcom.py               3852  0.01s             1           0  0.07s           2025-07-15T00:56:16
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:56:30
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:56:18
+================================================================================
+[2025-07-15T00:57:17.845+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.77s           2025-07-15T00:57:08
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.11s           2025-07-15T00:56:48
+/opt/airflow/dags/execute_python_operators.py   3991  0.00s             1           0  0.07s           2025-07-15T00:56:47
+/opt/airflow/dags/execute_xcom.py               3990  0.01s             1           0  0.07s           2025-07-15T00:56:47
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.13s           2025-07-15T00:57:00
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.09s           2025-07-15T00:56:48
+================================================================================
+[2025-07-15T00:57:48.123+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.76s           2025-07-15T00:57:40
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:57:18
+/opt/airflow/dags/execute_python_operators.py   4131  0.00s             1           0  0.08s           2025-07-15T00:57:17
+/opt/airflow/dags/execute_xcom.py               4130  0.01s             1           0  0.10s           2025-07-15T00:57:17
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.08s           2025-07-15T00:57:31
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:57:18
+================================================================================
+[2025-07-15T00:58:18.425+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.76s           2025-07-15T00:58:13
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.10s           2025-07-15T00:57:49
+/opt/airflow/dags/execute_python_operators.py   4269  0.00s             1           0  0.08s           2025-07-15T00:57:48
+/opt/airflow/dags/execute_xcom.py               4268  0.01s             1           0  0.07s           2025-07-15T00:57:48
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:58:01
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:57:49
+================================================================================
+[2025-07-15T00:58:35.825+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T00:58:35.933+0000] {manager.py:741} INFO - There are 6 files in /opt/airflow/dags
+[2025-07-15T00:58:48.950+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.78s           2025-07-15T00:58:45
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:58:19
+/opt/airflow/dags/execute_python_operators.py   4407  0.00s             1           0  0.08s           2025-07-15T00:58:18
+/opt/airflow/dags/execute_xcom.py               4406  0.01s             1           0  0.09s           2025-07-15T00:58:18
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.09s           2025-07-15T00:58:31
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.08s           2025-07-15T00:58:19
+================================================================================
+[2025-07-15T00:59:19.436+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dags.py                                               1           0  1.93s           2025-07-15T00:59:18
+/opt/airflow/dags/execute_multiple_tasks.py                             1           0  0.09s           2025-07-15T00:58:50
+/opt/airflow/dags/execute_python_operators.py   4547  0.00s             1           0  0.07s           2025-07-15T00:58:49
+/opt/airflow/dags/execute_xcom.py               4546  0.01s             1           0  0.07s           2025-07-15T00:58:49
+/opt/airflow/dags/execute_xcom_pass_values.py                           1           0  0.07s           2025-07-15T00:59:02
+/opt/airflow/dags/simple_hello_world.py                                 1           0  0.07s           2025-07-15T00:58:50
+================================================================================

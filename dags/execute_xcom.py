@@ -32,7 +32,7 @@ with DAG(
     taskB = PythonOperator(
         task_id = 'multiply_by_100',
         python_callable = multiply_by_100,
-        op_kwargs = {'counter':98}
+        op_kwargs = {'counter':9}
     )
 
 taskA >> taskB
