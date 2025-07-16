@@ -1,0 +1,710 @@
+[2025-07-16T02:39:33.173+0000] {processor.py:161} INFO - Started process (PID=4504) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:39:33.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:39:33.175+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:39:33.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:39:33.252+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:39:36.535+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:39:36.607+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:39:36.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:39:36.625+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:39:36.624+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:39:36.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 3.471 seconds
+[2025-07-16T02:40:07.467+0000] {processor.py:161} INFO - Started process (PID=4646) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:40:07.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:40:07.468+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:07.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:40:07.519+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:40:09.144+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:40:09.163+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:09.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:40:09.180+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:09.180+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:40:09.203+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.742 seconds
+[2025-07-16T02:40:39.325+0000] {processor.py:161} INFO - Started process (PID=4787) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:40:39.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:40:39.326+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:39.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:40:39.376+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:40:40.999+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:40:41.016+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:41.016+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:40:41.031+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:40:41.031+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:40:41.042+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.720 seconds
+[2025-07-16T02:41:11.496+0000] {processor.py:161} INFO - Started process (PID=4933) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:41:11.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:41:11.498+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:11.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:41:11.541+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:41:13.165+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:41:13.184+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:13.184+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:41:13.201+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:13.200+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:41:13.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.729 seconds
+[2025-07-16T02:41:44.101+0000] {processor.py:161} INFO - Started process (PID=5074) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:41:44.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:41:44.102+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:44.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:41:44.146+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:41:45.771+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:41:45.788+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:45.788+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:41:45.803+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:41:45.803+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:41:45.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.716 seconds
+[2025-07-16T02:42:15.865+0000] {processor.py:161} INFO - Started process (PID=5215) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:42:15.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:42:15.866+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:15.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:42:15.911+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:42:17.561+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:42:17.578+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:17.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:42:17.591+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:17.591+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:42:17.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.751 seconds
+[2025-07-16T02:42:48.569+0000] {processor.py:161} INFO - Started process (PID=5358) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:42:48.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:42:48.571+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:48.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:42:48.613+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:42:50.246+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:42:50.264+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:50.264+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:42:50.279+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:42:50.279+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:42:50.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.733 seconds
+[2025-07-16T02:43:21.166+0000] {processor.py:161} INFO - Started process (PID=5500) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:43:21.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:43:21.167+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:21.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:43:21.210+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:43:22.876+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:43:22.893+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:22.892+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:43:22.908+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:22.908+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:43:22.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.755 seconds
+[2025-07-16T02:43:53.617+0000] {processor.py:161} INFO - Started process (PID=5642) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:43:53.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:43:53.618+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:53.618+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:43:53.661+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:43:55.372+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:43:55.390+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:55.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:43:55.404+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:43:55.404+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:43:55.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.810 seconds
+[2025-07-16T02:44:26.274+0000] {processor.py:161} INFO - Started process (PID=5783) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:44:26.275+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:44:26.276+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:26.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:44:26.321+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:44:27.932+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:44:27.949+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:27.949+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:44:27.962+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:27.962+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:44:27.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.702 seconds
+[2025-07-16T02:44:58.156+0000] {processor.py:161} INFO - Started process (PID=5925) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:44:58.157+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:44:58.157+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:58.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:44:58.202+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:44:59.820+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:44:59.837+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:59.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:44:59.852+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:44:59.852+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:44:59.874+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.720 seconds
+[2025-07-16T02:45:30.411+0000] {processor.py:161} INFO - Started process (PID=6067) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:45:30.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:45:30.412+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:45:30.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:45:30.453+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:45:32.195+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:45:32.214+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:45:32.214+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:45:32.229+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:45:32.229+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:45:32.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.841 seconds
+[2025-07-16T02:46:02.289+0000] {processor.py:161} INFO - Started process (PID=6207) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:46:02.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:46:02.290+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:02.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:46:02.333+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:46:03.969+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:46:03.989+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:03.989+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:46:04.003+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:04.003+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:46:04.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.728 seconds
+[2025-07-16T02:46:35.032+0000] {processor.py:161} INFO - Started process (PID=6350) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:46:35.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:46:35.033+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:35.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:46:35.076+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:46:36.693+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:46:36.713+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:36.713+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:46:36.727+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:46:36.727+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:46:36.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.718 seconds
+[2025-07-16T02:47:06.850+0000] {processor.py:161} INFO - Started process (PID=6491) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:47:06.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:47:06.851+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:06.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:47:06.895+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:47:08.510+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:47:08.526+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:08.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:47:08.540+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:08.540+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:47:08.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.706 seconds
+[2025-07-16T02:47:39.589+0000] {processor.py:161} INFO - Started process (PID=6633) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:47:39.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:47:39.590+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:39.590+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:47:39.635+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:47:41.257+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:47:41.275+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:41.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:47:41.291+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:47:41.291+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:47:41.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.727 seconds
+[2025-07-16T02:48:12.378+0000] {processor.py:161} INFO - Started process (PID=6783) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:48:12.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:48:12.380+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:12.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:48:12.429+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:48:14.047+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:48:14.063+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:14.063+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:48:14.078+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:14.078+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:48:14.093+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.717 seconds
+[2025-07-16T02:48:57.541+0000] {processor.py:161} INFO - Started process (PID=69) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:48:57.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:48:57.542+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:57.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:48:57.586+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:48:59.257+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:48:59.275+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:59.274+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:48:59.292+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:48:59.292+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:48:59.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.768 seconds
+[2025-07-16T02:49:30.228+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:49:30.229+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:49:30.229+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:49:30.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:49:30.272+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:49:31.916+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:49:31.933+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:49:31.932+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:49:31.947+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:49:31.947+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:49:31.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.734 seconds
+[2025-07-16T02:50:02.121+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:50:02.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:50:02.122+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:02.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:50:02.165+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:50:03.803+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:50:03.823+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:03.823+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:50:03.841+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:03.841+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:50:03.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.735 seconds
+[2025-07-16T02:50:34.691+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:50:34.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:50:34.692+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:34.692+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:50:34.740+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:50:36.392+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:50:36.411+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:36.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:50:36.425+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:50:36.425+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:50:36.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.748 seconds
+[2025-07-16T02:51:06.472+0000] {processor.py:161} INFO - Started process (PID=662) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:51:06.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:51:06.473+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:06.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:51:06.515+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:51:08.228+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:51:08.247+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:08.247+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:51:08.264+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:08.264+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:51:08.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.824 seconds
+[2025-07-16T02:51:39.174+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:51:39.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:51:39.175+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:39.175+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:51:39.217+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:51:40.821+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:51:40.838+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:40.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:51:40.852+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:51:40.851+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:51:40.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.691 seconds
+[2025-07-16T02:52:11.815+0000] {processor.py:161} INFO - Started process (PID=949) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:52:11.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:52:11.817+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:11.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:52:11.888+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:52:13.642+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:52:13.660+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:13.660+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:52:13.675+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:13.675+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:52:13.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.884 seconds
+[2025-07-16T02:52:43.970+0000] {processor.py:161} INFO - Started process (PID=1089) to work on /opt/airflow/dags/dags.py
+[2025-07-16T02:52:43.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T02:52:43.971+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:43.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T02:52:44.033+0000] {logging_mixin.py:188} INFO - PySpark is available
+[2025-07-16T02:52:45.649+0000] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T02:52:45.668+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:45.668+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-16T02:52:45.685+0000] {logging_mixin.py:188} INFO - [2025-07-16T02:52:45.685+0000] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-16T02:52:45.697+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.730 seconds
+[2025-07-16T04:50:50.046+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:50:50.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:50:50.049+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:50:50.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:50:50.137+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:50:50.252+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:50:50.250+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:50:50.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:50:50.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.225 seconds
+[2025-07-16T04:51:20.440+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:51:20.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:51:20.443+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:51:20.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:51:20.497+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:51:20.611+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:51:20.609+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:51:20.613+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:51:20.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.192 seconds
+[2025-07-16T04:51:51.517+0000] {processor.py:186} INFO - Started process (PID=317) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:51:51.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:51:51.520+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:51:51.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:51:51.579+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:51:51.702+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:51:51.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:51:51.704+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:51:51.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.210 seconds
+[2025-07-16T04:52:22.301+0000] {processor.py:186} INFO - Started process (PID=527) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:52:22.302+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:52:22.303+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:52:22.303+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:52:22.356+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:52:22.476+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:52:22.470+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:52:22.479+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:52:22.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.200 seconds
+[2025-07-16T04:52:52.763+0000] {processor.py:186} INFO - Started process (PID=551) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:52:52.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:52:52.766+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:52:52.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:52:52.826+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:52:52.948+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:52:52.942+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:52:52.951+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:52:52.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.216 seconds
+[2025-07-16T04:53:23.227+0000] {processor.py:186} INFO - Started process (PID=575) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:53:23.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:53:23.229+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:53:23.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:53:23.285+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:53:23.410+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:53:23.397+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:53:23.414+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:53:23.432+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.210 seconds
+[2025-07-16T04:53:54.059+0000] {processor.py:186} INFO - Started process (PID=598) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:53:54.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:53:54.062+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:53:54.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:53:54.127+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:53:54.255+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:53:54.253+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:53:54.256+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:53:54.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.216 seconds
+[2025-07-16T04:54:25.233+0000] {processor.py:186} INFO - Started process (PID=622) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:54:25.234+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:54:25.236+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:54:25.235+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:54:25.294+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:54:25.410+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:54:25.407+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:54:25.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:54:25.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.205 seconds
+[2025-07-16T04:54:40.627+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:54:40.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:54:40.630+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:54:40.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:54:40.687+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:54:40.806+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:54:40.802+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:54:40.807+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:54:40.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.197 seconds
+[2025-07-16T04:55:10.919+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:55:10.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:55:10.921+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:55:10.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:55:10.976+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:55:11.091+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:55:11.089+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:55:11.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:55:11.106+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.191 seconds
+[2025-07-16T04:55:41.370+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:55:41.371+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:55:41.375+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:55:41.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:55:41.449+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:55:41.578+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:55:41.574+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:55:41.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:55:41.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.228 seconds
+[2025-07-16T04:56:11.677+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:56:11.677+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:56:11.679+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:56:11.679+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:56:11.733+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:56:11.856+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:56:11.847+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:56:11.857+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:56:11.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.212 seconds
+[2025-07-16T04:56:41.915+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:56:41.916+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:56:41.917+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:56:41.917+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:56:41.969+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:56:42.082+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:56:42.080+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:56:42.083+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:56:42.098+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.186 seconds
+[2025-07-16T04:57:12.181+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:57:12.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:57:12.183+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:57:12.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:57:12.242+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:57:12.373+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:57:12.358+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:57:12.376+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:57:12.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.228 seconds
+[2025-07-16T04:57:42.658+0000] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:57:42.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:57:42.661+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:57:42.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:57:42.716+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:57:42.832+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:57:42.829+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:57:42.832+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:57:42.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.192 seconds
+[2025-07-16T04:58:13.835+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:58:13.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:58:13.837+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:58:13.837+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:58:14.042+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:58:14.158+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:58:14.155+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:58:14.159+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:58:14.171+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.339 seconds
+[2025-07-16T04:58:45.032+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/dags.py
+[2025-07-16T04:58:45.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-16T04:58:45.034+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:58:45.034+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-16T04:58:45.211+0000] {logging_mixin.py:190} INFO - PySpark is available
+[2025-07-16T04:58:45.326+0000] {logging_mixin.py:190} INFO - [2025-07-16T04:58:45.324+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 6, in <module>
+    from Postgres_ETL import *
+  File "/opt/airflow/dags/Postgres_ETL.py", line 27, in <module>
+    .getOrCreate()
+     ^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/sql/session.py", line 497, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 515, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 201, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/context.py", line 436, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+                                       ^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pyspark/java_gateway.py", line 107, in launch_gateway
+    raise PySparkRuntimeError(
+pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java gateway process exited before sending its port number.
+[2025-07-16T04:58:45.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-07-16T04:58:45.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.312 seconds
