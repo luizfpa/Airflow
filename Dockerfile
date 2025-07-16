@@ -1,11 +1,7 @@
-FROM apache/airflow:2.8.1
+FROM apache/airflow:2.10.2
+USER airflow
 
-USER root
-
-# Instalar Java 17 (disponível no Debian 12)
-RUN apt-get update && \
-    apt-get install -y openjdk-17-jdk wget && \
-    apt-get clean
+RUN pip install --no-cache-dir pandas==2.2.2 pyspark==3.5.0 psycopg2-binary==2.9.9
 
 # Configurar JAVA_HOME
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
@@ -15,4 +11,5 @@ RUN mkdir -p /opt/airflow/jars && \
     wget -O /opt/airflow/jars/postgresql-42.7.7.jar \
     https://jdbc.postgresql.org/download/postgresql-42.7.7.jar
 
-USER airflow
+
+USER ${AIRFLOW_UID:-50000}

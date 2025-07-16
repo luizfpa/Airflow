@@ -13,14 +13,11 @@ x-airflow-common:
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
-    _PIP_ADDITIONAL_REQUIREMENTS: pyspark==3.5.0 psycopg2-binary
-    JAVA_HOME: /usr/lib/jvm/java-17-openjdk-amd64
-    PYSPARK_SUBMIT_ARGS: --driver-class-path /opt/airflow/jars/postgresql-42.7.7.jar pyspark-shell
   volumes:
-    - ./dags:/opt/airflow/dags
-    - ./logs:/opt/airflow/logs
-    - ./plugins:/opt/airflow/plugins
-    - ./jars:/opt/airflow/jars
+    - /c/Users/admin/Airflow/dags:/opt/airflow/dags
+    - /c/Users/admin/Airflow/datasets:/opt/airflow/datasets
+    - /c/Users/admin/Airflow/logs:/opt/airflow/logs
+    - /c/Users/admin/Airflow/plugins:/opt/airflow/plugins
   user: "50000:0"
   depends_on:
     - postgres
@@ -61,10 +58,11 @@ services:
     <<: *airflow-common
     command: scheduler
     healthcheck:
-      test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+      test: ["CMD-SHELL", "airflow jobs check --job-type SchedulerJob --hostname $(hostname)"]
       interval: 30s
-      timeout: 30s
-      retries: 3
+      timeout: 10s
+      retries: 5
+      start_period: 30s
     restart: always
     depends_on:
       - postgres
@@ -76,9 +74,9 @@ services:
     command:
       - -c
       - |
-        mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins
-        chown -R "${AIRFLOW_UID:-50000}:0" /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins
-        exec airflow db init
+        mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets
+        chown -R "${AIRFLOW_UID:-50000}:0" /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets
+        airflow db init
         airflow users create \
           --username airflow \
           --firstname airflow \
@@ -88,9 +86,10 @@ services:
           --password airflow
     environment:
       <<: *airflow-common-env
-      _AIRFLOW_DB_UPGRADE: 'true'
+      _AIRFLOW_DB_MIGRATE: 'true'
       _AIRFLOW_WWW_USER_CREATE: 'true'
-    user: "0:0"
+    depends_on:
+      - postgres
 
 volumes:
   postgres-db-volume:
