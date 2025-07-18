@@ -18,6 +18,7 @@ x-airflow-common:
     - /c/Users/admin/Airflow/datasets:/opt/airflow/datasets
     - /c/Users/admin/Airflow/logs:/opt/airflow/logs
     - /c/Users/admin/Airflow/plugins:/opt/airflow/plugins
+    - /c/Users/admin/Airflow/output:/opt/airflow/output
   user: "50000:0"
   depends_on:
     - postgres
@@ -74,8 +75,8 @@ services:
     command:
       - -c
       - |
-        mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets
-        chown -R "${AIRFLOW_UID:-50000}:0" /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets
+        mkdir -p /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets /opt/airflow/output
+        chown -R "${AIRFLOW_UID:-50000}:0" /opt/airflow/logs /opt/airflow/dags /opt/airflow/plugins /opt/airflow/datasets /opt/airflow/output
         airflow db init
         airflow users create \
           --username airflow \
