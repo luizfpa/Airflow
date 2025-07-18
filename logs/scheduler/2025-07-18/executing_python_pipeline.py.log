@@ -3725,3 +3725,38 @@ SyntaxError: invalid syntax. Perhaps you forgot a comma?
 [2025-07-18T22:22:31.945+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:31.945+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-18T22:22:31.956+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:31.956+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
 [2025-07-18T22:22:31.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.381 seconds
+[2025-07-18T22:23:03.008+0000] {processor.py:186} INFO - Started process (PID=1061) to work on /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:03.009+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/executing_python_pipeline.py for tasks to queue
+[2025-07-18T22:23:03.010+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:03.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:03.330+0000] {processor.py:925} INFO - DAG(s) 'python_pipeline' retrieved from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:03.347+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:03.347+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:23:03.367+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:03.367+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2025-07-18T22:23:03.389+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.385 seconds
+[2025-07-18T22:23:34.072+0000] {processor.py:186} INFO - Started process (PID=1077) to work on /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:34.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/executing_python_pipeline.py for tasks to queue
+[2025-07-18T22:23:34.076+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:34.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:34.431+0000] {processor.py:925} INFO - DAG(s) 'python_pipeline' retrieved from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:23:34.445+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:34.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:23:34.457+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:34.457+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2025-07-18T22:23:34.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.400 seconds
+[2025-07-18T22:24:04.901+0000] {processor.py:186} INFO - Started process (PID=1093) to work on /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:04.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/executing_python_pipeline.py for tasks to queue
+[2025-07-18T22:24:04.903+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:04.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:05.221+0000] {processor.py:925} INFO - DAG(s) 'python_pipeline' retrieved from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:05.236+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:05.235+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:24:05.248+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:05.248+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2025-07-18T22:24:05.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.375 seconds
+[2025-07-18T22:24:36.140+0000] {processor.py:186} INFO - Started process (PID=1109) to work on /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:36.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/executing_python_pipeline.py for tasks to queue
+[2025-07-18T22:24:36.142+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:36.142+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:36.537+0000] {processor.py:925} INFO - DAG(s) 'python_pipeline' retrieved from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:24:36.553+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:36.553+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:24:36.565+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:36.565+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2025-07-18T22:24:36.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.440 seconds
+[2025-07-18T22:25:07.376+0000] {processor.py:186} INFO - Started process (PID=1125) to work on /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:25:07.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/executing_python_pipeline.py for tasks to queue
+[2025-07-18T22:25:07.379+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:25:07.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:25:07.702+0000] {processor.py:925} INFO - DAG(s) 'python_pipeline' retrieved from /opt/airflow/dags/executing_python_pipeline.py
+[2025-07-18T22:25:07.716+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:25:07.716+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:25:07.729+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:25:07.728+0000] {dag.py:4180} INFO - Setting next_dagrun for python_pipeline to None, run_after=None
+[2025-07-18T22:25:07.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/executing_python_pipeline.py took 0.376 seconds

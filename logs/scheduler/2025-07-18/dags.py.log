@@ -4618,3 +4618,35 @@ pyspark.errors.exceptions.base.PySparkRuntimeError: [JAVA_GATEWAY_EXITED] Java g
 [2025-07-18T22:22:49.647+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:49.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-18T22:22:49.665+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:49.664+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_pipeline to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
 [2025-07-18T22:22:49.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.067 seconds
+[2025-07-18T22:23:19.839+0000] {processor.py:186} INFO - Started process (PID=1076) to work on /opt/airflow/dags/dags.py
+[2025-07-18T22:23:19.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-18T22:23:19.841+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:19.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-18T22:23:19.849+0000] {logging_mixin.py:190} INFO - PySpark is not available
+[2025-07-18T22:23:19.855+0000] {processor.py:925} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-18T22:23:19.871+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:19.871+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:23:19.886+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:19.886+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_pipeline to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:23:19.898+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-07-18T22:23:50.580+0000] {processor.py:186} INFO - Started process (PID=1092) to work on /opt/airflow/dags/dags.py
+[2025-07-18T22:23:50.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-18T22:23:50.583+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:50.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-18T22:23:50.595+0000] {logging_mixin.py:190} INFO - PySpark is not available
+[2025-07-18T22:23:50.601+0000] {processor.py:925} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-18T22:23:50.618+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:50.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:23:50.633+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:23:50.633+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_pipeline to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:23:50.645+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-07-18T22:24:20.830+0000] {processor.py:186} INFO - Started process (PID=1108) to work on /opt/airflow/dags/dags.py
+[2025-07-18T22:24:20.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-18T22:24:20.833+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:20.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-18T22:24:20.845+0000] {logging_mixin.py:190} INFO - PySpark is not available
+[2025-07-18T22:24:20.851+0000] {processor.py:925} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-18T22:24:20.868+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:20.868+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:24:20.884+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:20.884+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_pipeline to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:24:20.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.073 seconds
+[2025-07-18T22:24:51.050+0000] {processor.py:186} INFO - Started process (PID=1124) to work on /opt/airflow/dags/dags.py
+[2025-07-18T22:24:51.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-18T22:24:51.052+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:51.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-18T22:24:51.061+0000] {logging_mixin.py:190} INFO - PySpark is not available
+[2025-07-18T22:24:51.067+0000] {processor.py:925} INFO - DAG(s) 'etl_pipeline' retrieved from /opt/airflow/dags/dags.py
+[2025-07-18T22:24:51.083+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:51.083+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:24:51.098+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:24:51.098+0000] {dag.py:4180} INFO - Setting next_dagrun for etl_pipeline to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:24:51.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
