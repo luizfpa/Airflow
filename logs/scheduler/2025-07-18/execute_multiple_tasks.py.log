@@ -1301,3 +1301,17 @@
 [2025-07-18T22:21:48.988+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:21:48.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-18T22:21:49.003+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:21:49.003+0000] {dag.py:4180} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
 [2025-07-18T22:21:49.015+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.082 seconds
+[2025-07-18T22:22:19.298+0000] {processor.py:186} INFO - Started process (PID=1042) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:19.299+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-18T22:22:19.300+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:19.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:19.338+0000] {processor.py:925} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:19.357+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:19.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:22:19.377+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:19.377+0000] {dag.py:4180} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:22:19.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.096 seconds
+[2025-07-18T22:22:49.524+0000] {processor.py:186} INFO - Started process (PID=1058) to work on /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:49.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/execute_multiple_tasks.py for tasks to queue
+[2025-07-18T22:22:49.527+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:49.527+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:49.560+0000] {processor.py:925} INFO - DAG(s) 'executing_multiple_tasks' retrieved from /opt/airflow/dags/execute_multiple_tasks.py
+[2025-07-18T22:22:49.579+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:49.579+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:22:49.596+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:49.596+0000] {dag.py:4180} INFO - Setting next_dagrun for executing_multiple_tasks to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:22:49.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_multiple_tasks.py took 0.089 seconds

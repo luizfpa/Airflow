@@ -1301,3 +1301,17 @@
 [2025-07-18T22:21:46.781+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:21:46.781+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-07-18T22:21:46.797+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:21:46.797+0000] {dag.py:4180} INFO - Setting next_dagrun for cross_task_communication to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
 [2025-07-18T22:21:46.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_xcom.py took 0.066 seconds
+[2025-07-18T22:22:17.168+0000] {processor.py:186} INFO - Started process (PID=1040) to work on /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:17.169+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/execute_xcom.py for tasks to queue
+[2025-07-18T22:22:17.171+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:17.170+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:17.185+0000] {processor.py:925} INFO - DAG(s) 'cross_task_communication' retrieved from /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:17.203+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:17.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:22:17.222+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:17.222+0000] {dag.py:4180} INFO - Setting next_dagrun for cross_task_communication to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:22:17.234+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_xcom.py took 0.071 seconds
+[2025-07-18T22:22:47.377+0000] {processor.py:186} INFO - Started process (PID=1056) to work on /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:47.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/execute_xcom.py for tasks to queue
+[2025-07-18T22:22:47.381+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:47.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:47.400+0000] {processor.py:925} INFO - DAG(s) 'cross_task_communication' retrieved from /opt/airflow/dags/execute_xcom.py
+[2025-07-18T22:22:47.419+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:47.419+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-07-18T22:22:47.436+0000] {logging_mixin.py:190} INFO - [2025-07-18T22:22:47.436+0000] {dag.py:4180} INFO - Setting next_dagrun for cross_task_communication to 2025-07-17 00:00:00+00:00, run_after=2025-07-18 00:00:00+00:00
+[2025-07-18T22:22:47.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/execute_xcom.py took 0.079 seconds
