@@ -1,0 +1,17 @@
+[2025-07-11T21:41:20.573+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskD manual__2025-07-11T21:40:54.812520+00:00 [queued]>
+[2025-07-11T21:41:20.578+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskD manual__2025-07-11T21:40:54.812520+00:00 [queued]>
+[2025-07-11T21:41:20.578+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-11T21:41:20.585+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): taskD> on 2025-07-11 21:40:54.812520+00:00
+[2025-07-11T21:41:20.588+0000] {standard_task_runner.py:60} INFO - Started process 21068 to run task
+[2025-07-11T21:41:20.591+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'executing_multiple_tasks', 'taskD', 'manual__2025-07-11T21:40:54.812520+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/execute_multiple_tasks.py', '--cfg-path', '/tmp/tmpdk3jxu9a']
+[2025-07-11T21:41:20.593+0000] {standard_task_runner.py:88} INFO - Job 57: Subtask taskD
+[2025-07-11T21:41:20.634+0000] {task_command.py:423} INFO - Running <TaskInstance: executing_multiple_tasks.taskD manual__2025-07-11T21:40:54.812520+00:00 [running]> on host 84e5714b039f
+[2025-07-11T21:41:20.681+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='*** ' AIRFLOW_CTX_DAG_ID='executing_multiple_tasks' AIRFLOW_CTX_TASK_ID='taskD' AIRFLOW_CTX_EXECUTION_DATE='2025-07-11T21:40:54.812520+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-11T21:40:54.812520+00:00'
+[2025-07-11T21:41:20.682+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-07-11T21:41:20.683+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo TASK D completed!']
+[2025-07-11T21:41:20.687+0000] {subprocess.py:86} INFO - Output:
+[2025-07-11T21:41:20.688+0000] {subprocess.py:93} INFO - TASK D completed!
+[2025-07-11T21:41:20.688+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-07-11T21:41:20.702+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=executing_multiple_tasks, task_id=taskD, execution_date=20250711T214054, start_date=20250711T214120, end_date=20250711T214120
+[2025-07-11T21:41:20.723+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-11T21:41:20.737+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
