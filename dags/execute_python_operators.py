@@ -1,10 +1,11 @@
 import airflow
+import pendulum
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 default_args ={
-    'owner' : 'airflow '
+    'owner' : 'admin '
 }
 
 def greet_hello(name):
@@ -17,9 +18,9 @@ with DAG(
     dag_id = 'execute_python_operators',
     description = 'Python operators in DAGs with parameters',
     default_args = default_args,
-    start_date = airflow.utils.dates.days_ago(1),
-    schedule_interval = '@daily',
-    tags = ['Lrn Airflow', 'LinkedIn','parameters']
+    start_date = pendulum.datetime(2023, 1, 1, tz="UTC"),
+    schedule = '@daily',
+    tags = ['study','Lrn Airflow', 'LinkedIn','parameters']
 ) as dag:
     taskA = PythonOperator(
         task_id = 'greet_hello',

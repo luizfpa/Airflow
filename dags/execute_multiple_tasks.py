@@ -1,10 +1,11 @@
 import airflow
+import pendulum
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.bash import BashOperator
 
 default_args ={
-    'owner' : 'airflow '
+    'owner' : 'admin '
 
 }
 
@@ -12,10 +13,10 @@ with DAG(
     dag_id = 'executing_multiple_tasks',
     description = 'DAG with multiple tasks and dependencies',
     default_args = default_args,
-    tags = ['Lrn Airflow', 'LinkedIn','template_search'],
-    start_date = airflow.utils.dates.days_ago(1),
-    schedule_interval = timedelta(days=1),
-    template_searchpath = '/opt/airflow/dags/bash_scripts'
+    tags = ['study','Lrn Airflow', 'LinkedIn','template_search'],
+    start_date = pendulum.datetime(2023, 1, 1, tz="UTC"),
+    schedule = timedelta(days=1),
+    template_searchpath = '/home/luizfp22/airflow_env/airflow_3_home/dags/bash_scripts'
 ) as dag:
     
     taskA = BashOperator(

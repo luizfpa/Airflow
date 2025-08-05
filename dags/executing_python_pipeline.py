@@ -1,4 +1,5 @@
 import airflow
+import pendulum
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
@@ -7,11 +8,11 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 default_args = {
-    'owner': 'airflow'
+    'owner': 'admin'
 }
 
 def read_csv_file():
-    df = pd.read_csv('/opt/airflow/datasets/insurance.csv')
+    df = pd.read_csv('/home/luizfp22/airflow_env/airflow_3_home/datasets/insurance.csv')
     print(df)
     return df.to_json()
 
@@ -32,7 +33,7 @@ def groupby_smoker(ti):
         'charges': 'mean'
     }).reset_index()
     smoker_df.to_csv(
-        '/opt/airflow/output/grouped_by_smoker.csv', index=False
+        '/home/luizfp22/airflow_env/airflow_3_home/output/grouped_by_smoker.csv', index=False
     )
 
 def groupby_region(ti):
@@ -44,16 +45,16 @@ def groupby_region(ti):
         'charges':'mean'
     }).reset_index()
     region_df.to_csv(
-        '/opt/airflow/output/grouped_by_region.csv', index=False
+        '/home/luizfp22/airflow_env/airflow_3_home/output/grouped_by_region.csv', index=False
     )
 
 with DAG(
     dag_id = 'python_pipeline',
     description = 'Running a Python Pipeline',
     default_args = default_args,
-    start_date = airflow.utils.dates.days_ago(1),
-    schedule_interval = '@once',
-    tags = ['LinkedIn', 'LrnAirflow', 'Python_Pipeline','transform']
+    start_date = pendulum.datetime(2023, 1, 1, tz="UTC"),
+    schedule = '@once',
+    tags = ['study','LinkedIn', 'LrnAirflow', 'Python_Pipeline','transform']
 )as dag:
 
     read_csv_file = PythonOperator(

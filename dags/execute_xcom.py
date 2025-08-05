@@ -1,10 +1,11 @@
 import airflow
+import pendulum
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 default_args ={
-    'owner' : 'airflow '
+    'owner' : 'admin '
 }
 
 def increment_by_1(counter):
@@ -19,9 +20,9 @@ with DAG(
     dag_id = 'cross_task_communication',
     description = 'Cross-tasks communication with XCom',
     default_args = default_args,
-    start_date = airflow.utils.dates.days_ago(1),
-    schedule_interval = '@daily',
-    tags = ['Lrn Airflow', 'LinkedIn','XCom']
+    start_date = pendulum.datetime(2023, 1, 1, tz="UTC"),
+    schedule = '@daily',
+    tags = ['study','Lrn Airflow', 'LinkedIn','XCom']
 ) as dag:
     taskA = PythonOperator(
         task_id = 'increment_by_1',
