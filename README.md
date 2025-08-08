@@ -76,7 +76,6 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a pull request.
 
-Please review the [CONTRIBUTING.rst](CONTRIBUTING.rst) file for detailed guidelines.
 
 ## License
 This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
