@@ -1,4 +1,4 @@
-# Airflow Project by luizfpa
+# Airflow Exercises 
 
 ## Overview
 This repository, maintained by `luizfpa`, is a practice implementation of [Apache Airflow](https://airflow.apache.org/), a platform to programmatically author, schedule, and monitor workflows. This project is designed to practice exercises from the LinkedIn Learning course [Learning Apache Airflow](https://www.linkedin.com/learning/learning-apache-airflow/an-overview-of-apache-airflow?u=264700066).
