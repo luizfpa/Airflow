@@ -12,7 +12,7 @@ This repository, maintained by `luizfpa`, is a practice implementation of [Apach
 - [License](#license)
 
 ## Project Focus
-This Airflow project is designed to practice creating and managing data pipelines through exercises from the LinkedIn Learning course "Learning Apache Airflow." It focuses on building simple Directed Acyclic Graphs (DAGs) to process data stored in the `datasets` folder, with outputs saved to the `output` folder after DAG execution. The repository is intended for beginners to learn Airflow concepts, such as task dependencies, scheduling, and workflow management, in a simple and hands-on manner.
+This Airflow project is designed to practice creating and managing data pipelines through exercises from the LinkedIn Learning course "Learning Apache Airflow." It focuses on building simple Directed Acyclic Graphs (DAGs) to process data stored in the `datasets` folder, with outputs saved to the `output` folder after DAG execution. The repository is intended for beginners to learn Airflow concepts, such as task dependencies, scheduling, and workflow management, in a simple and hands-on manner. **Note**: The project initially started using Docker Desktop for development and was migrated to a Linux environment mid-development to support a more robust and production-like setup.
 
 ## Features
 - **Simple DAGs**: Define basic workflows as Directed Acyclic Graphs (DAGs) using Python code, following course exercises.
