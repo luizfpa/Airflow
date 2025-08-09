@@ -46,27 +46,12 @@ To get started with this Airflow project, follow these steps to set up a local e
    pip install 'apache-airflow[postgres]==3.0.3' --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-3.0.3/constraints-3.10.txt"
    ```
 
-4. **Initialize the Database**:
-   ```bash
-   airflow db init
-   ```
-
-5. **Start Airflow Standalone** (for testing):
+4. **Start Airflow Standalone** (for testing):
    ```bash
    airflow standalone
    ```
    Access the Airflow UI at `localhost:8080` (default credentials: `airflow`/`airflow`).
 
-6. **Docker Setup** (alternative):
-   Download the official Airflow `docker-compose.yaml`:
-   ```bash
-   curl -LfO 'https://airflow.apache.org/docs/apache-airflow/3.0.3/docker-compose.yaml'
-   ```
-   Initialize and start:
-   ```bash
-   docker compose up airflow-init
-   docker compose up
-   ```
 
 ## Contributing
 Contributions are welcome! To contribute:
