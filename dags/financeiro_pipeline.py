@@ -62,7 +62,7 @@ with DAG(
         df = df.drop(columns=["Card Holder Name", "Time", "Type"], errors="ignore")
         # Remove linhas onde Description contém 'Payment CNTRL1'
         if 'Description' in df.columns:
-            df = df[~df['Description'].astype(str).str.contains('Payment CNTRL1|Payment RBC|Payment PCF', na=False)]
+            df = df[~df['Description'].astype(str).str.contains('Pymt Money Account 4767|Payment CNTRL1|Payment RBC|Payment PCF', na=False)]
         df['Card'] = "PC Financial"
         return df[['Date', 'Description', 'Amount', 'Card']] if all(col in df.columns for col in ['Date', 'Description', 'Amount']) else None
 
@@ -109,8 +109,6 @@ with DAG(
             df = pd.read_excel(src_path)
         # Renomeia coluna Transfer date para Date
         df = df.rename(columns={"Transfer date": "Date"})
-        # Muda o tipo de Amount para string
-        df['Amount'] = df['Amount'].astype(str)
         # Remove coluna Type se existir
         df = df.drop(columns=["Type"], errors="ignore")
         # Adiciona coluna Card
@@ -120,7 +118,7 @@ with DAG(
     @task
     def merge_and_append(pc_df: pd.DataFrame | None, ws_df: pd.DataFrame | None, cibcn_df: pd.DataFrame | None, eq_df: pd.DataFrame | None) -> str:
         """Mescla DataFrames, remove duplicatas e adiciona ao arquivo de saída."""
-        # Configura logging
+        # Configura loggings
         logging.basicConfig(level=logging.INFO)
         logger = logging.getLogger(__name__)
         
@@ -150,6 +148,10 @@ with DAG(
     def clean_output_file(output_path: str) -> str:
         """Limpa a coluna Amount, remove transações sem data, ordena por Date e salva."""
         df = pd.read_csv(output_path)
+
+        # Padroniza Description: cada palavra com a primeira letra maiúscula
+        if 'Description' in df.columns:
+            df['Description'] = df['Description'].astype(str).str.title()
         
         # Configura logging
         logging.basicConfig(level=logging.INFO)
@@ -171,8 +173,21 @@ with DAG(
             if not non_numeric.empty:
                 logger.warning(f"Valores não numéricos em Amount: {non_numeric[['Amount']].to_dict()}")
 
-        # Ordena por Date (tratado como string, assumindo formato consistente MM/DD/YYYY)
+        # Padroniza a coluna Date para MM/DD/YYYY, tratando múltiplos formatos
         if 'Date' in df.columns:
+            from datetime import datetime
+            def parse_date(date_str):
+                for fmt in ("%d-%b-%y", "%Y-%m-%d", "%m/%d/%Y", "%d/%m/%Y"):
+                    try:
+                        return datetime.strptime(str(date_str), fmt)
+                    except Exception:
+                        continue
+                try:
+                    return pd.to_datetime(date_str, errors='coerce')
+                except Exception:
+                    return pd.NaT
+            df['Date'] = df['Date'].apply(parse_date)
+            df['Date'] = df['Date'].dt.strftime('%m/%d/%Y')
             df = df.sort_values(by='Date', ascending=True, na_position='last')
 
         df.to_csv(output_path, index=False)
