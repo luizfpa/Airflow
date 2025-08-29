@@ -172,7 +172,7 @@ with DAG(
             non_numeric = df[df['Amount'].str.match(r'^-?\d*\.?\d*$', na=False) == False]
             if not non_numeric.empty:
                 logger.warning(f"Valores não numéricos em Amount: {non_numeric[['Amount']].to_dict()}")
-
+        
         # Padroniza a coluna Date para MM/DD/YYYY, tratando múltiplos formatos
         if 'Date' in df.columns:
             from datetime import datetime
@@ -193,6 +193,21 @@ with DAG(
         df.to_csv(output_path, index=False)
         return output_path
 
+    @task
+    def categorize_transaction(output_path: str) -> str:
+        """Adiciona colunas Category e Subcategory conforme regras para Description."""
+        df = pd.read_csv(output_path)
+        def get_category_subcategory(description):
+            desc = str(description).upper()
+            if "SAFEWAY #4912" in desc or "WAL-MART #3158" in desc:
+                return pd.Series(["Groceries", "Food"])
+            else:
+                return pd.Series([None, None])
+        df[["Category", "Subcategory"]] = df["Description"].apply(get_category_subcategory)
+        df.to_csv(output_path, index=False)
+        return output_path
+
+
     pc_path = find_pc_file()
     ws_path = find_ws_file()
     cibcn_path = find_cibcn_file()
@@ -203,3 +218,4 @@ with DAG(
     eq_processed = process_eq_file(eq_path)
     merged_path = merge_and_append(pc_processed, ws_processed, cibcn_processed, eq_processed)
     cleaned_path = clean_output_file(merged_path)
+    categorized_path = categorize_transaction(cleaned_path)
